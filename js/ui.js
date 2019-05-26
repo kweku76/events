@@ -16,7 +16,7 @@ class UI {
             const categoriesList = categories.categories.categories;
             const categoriesSelect = document.querySelector('#category');
 
-            console.log(categoriesList)
+            console.log(categoriesList);
         })
     }
 
