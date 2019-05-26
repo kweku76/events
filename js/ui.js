@@ -1,4 +1,4 @@
-const UI {
+class UI {
     constructor() {
         //app initialization
 
