@@ -10,11 +10,11 @@ class UI {
         // display categories in <select>
         this.printCategories();
     }
-    printCategories(){
+    printCategories() {
         const categoriesList = eventbrite.getCategoriesAPI()
         .then(categories => {
-            console.log(categories);
-        });
+            const categoriesList = categories.categories.categories;
+        })
     }
 
 }
