@@ -14,6 +14,9 @@ class UI {
         const categoriesList = eventbrite.getCategoriesAPI()
         .then(categories => {
             const categoriesList = categories.categories.categories;
+            const categoriesSelect = document.querySelector('#category');
+
+            console.log(categoriesList)
         })
     }
 
